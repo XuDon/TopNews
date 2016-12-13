@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="app.tfswx.com.test_getjson.MainActivity">
+
+    <HorizontalScrollView
+        android:background="#6ccc"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_top"
+                style="@style/RadioButtons"
+                android:text="头条" />
+
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+            <RadioButton
+                android:id="@+id/rb_shehui"
+                style="@style/RadioButtons"
+                android:text="社会" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_yule"
+                style="@style/RadioButtons"
+                android:text="娱乐" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_tiyu"
+                style="@style/RadioButtons"
+                android:text="体育" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_keji"
+                style="@style/RadioButtons"
+                android:text="科技" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_junshi"
+                style="@style/RadioButtons"
+                android:text="军事" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_caijing"
+                style="@style/RadioButtons"
+                android:text="财经" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_shishang"
+                style="@style/RadioButtons"
+                android:text="时尚" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_guonei"
+                style="@style/RadioButtons"
+                android:text="国内" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_guoji"
+                style="@style/RadioButtons"
+                android:text="国际" />
+            <View
+                android:background="#8ccc"
+                android:layout_gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/vp_showNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>
